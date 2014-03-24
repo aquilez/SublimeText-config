@@ -12,6 +12,7 @@ Packages included:
 * DocBlockr
 * Emmet
 * SideBarEnhancements
+* Laravel Blade Highlighter
 
 Themes/Color Schemes included:
 
