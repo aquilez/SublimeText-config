@@ -1,27 +1,40 @@
-SublimeText 3
-===================
+# Configuration for SublimeText 3
 
-This is the config I use for SublimeText 3.
+This is my personal configuration for SublimeText 3.
+To install, clone repo into the Packages directory (accesible via "Browse Packages" option in the Preferences Menu).
 
-Packages included:
+## Notes
+
+* Font used: DejaVu Sans Mono at 11px
+* Lot of language packages are disabled
+* Default line ending is set to unix-style
+* Code Indentation is set to 4 SPACES
+
+## Packages included
+
+### Plugins
 
 * Package Control
 * Alignment
-* CleanCSS
+* BracketHighlighter
+* Color Highlighter
+* ColorSublime
 * CSS3 Syntax
 * DocBlockr
 * Emmet
-* SideBarEnhancements
+* WordPress Developer Resources
+
+### Languages
+
 * Laravel Blade Highlighter
+* Sass
+* CSS3
+* ApacheConf
 
-Themes/Color Schemes included:
+### Themes
 
-* Spacegray
+* Seti UI
 
-Notes
-===================
+### Color Schemes
 
-* Font used: DejaVu Sans Mono (not included in this repo)
-* Many lang packages have been disabled
-* Default line ending is unix-style
-* TABs rule in this config
+* Tron Legacy (Installed via ColorSublime)

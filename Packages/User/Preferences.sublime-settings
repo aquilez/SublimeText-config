@@ -1,61 +1,97 @@
 {
-	"bold_folder_labels": true,
-	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
-	"default_line_ending": "unix",
-	"detect_indentation": false,
-	"drag_text": false,
-	"draw_indent_guides": true,
-	"fold_buttons": false,
-	"font_face": "DejaVu Sans Mono",
-	"font_size": 11,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"R",
-		"Groovy",
-		"Lua",
-		"AppleScript",
-		"ActionScript",
-		"Haskell",
-		"Java",
-		"Erlang",
-		"Textile",
-		"Clojure",
-		"Objective-C",
-		"D",
-		"RestructuredText",
-		"Vintage",
-		"Scala",
-		"C++",
-		"LaTeX",
-		"C#",
-		"Graphviz",
-		"ASP",
-		"TCL",
-		"ShellScript",
-		"Go",
-		"OCaml",
-		"Lisp",
-		"Batch File",
-		"Pascal",
-		"Matlab",
-		"Makefile"
-	],
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
-	],
-	"line_padding_bottom": 3,
-	"line_padding_top": 3,
-	"margin": 10,
-	"shift_tab_unindent": true,
-	"tab_completion": false,
-	"tab_size": 4,
-	"theme": "Spacegray.sublime-theme",
-	"translate_tabs_to_spaces": false,
-	"trim_trailing_white_space_on_save": true,
-	"ensure_newline_at_eof_on_save": true,
-	"word_wrap": false
+    // Make font for folders bold in the project manager
+    "bold_folder_labels": true,
+
+    // Set theme
+    "color_scheme": "Packages/Colorsublime - Themes/TronLegacy.tmTheme",
+    "theme": "Seti.sublime-theme",
+
+    // Always use UNIX line ending
+    "default_line_ending": "unix",
+
+    // Disable tab completion
+    "tab_completion": false,
+
+    // Stop messing with my code, dragging
+    "drag_text": false,
+
+    // All files should end with a newline, because yes.
+    "ensure_newline_at_eof_on_save": true,
+
+    // Don't mess with my code, codehider
+    "fold_buttons": false,
+
+    // Set custom font
+    "font_face": "DejaVu Sans Mono",
+    "font_size": 11,
+    "line_padding_bottom": 3,
+    "line_padding_top": 3,
+
+    // Highlight the current line
+    "highlight_line": true,
+
+    // Disable packages I do not use
+    "ignored_packages":
+    [
+        "Lua",
+        "Pascal",
+        "Matlab",
+        "AppleScript",
+        "Scala",
+        "Groovy",
+        "Vintage",
+        "Makefile",
+        "R",
+        "C#",
+        "OCaml",
+        "ActionScript",
+        "Clojure",
+        "D",
+        "Graphviz",
+        "C++",
+        "Erlang",
+        "Lisp",
+        "LaTeX",
+        "Java",
+        "Haskell",
+        "Objective-C",
+        "ShellScript",
+        "TCL",
+        "ASP",
+        "Rails",
+        "Perl",
+        "Textile",
+        "Go",
+        "RestructuredText",
+        "Python"
+    ],
+
+    // Disable the tab navigation options (arrows, dropdown)
+    "enable_tab_scrolling": true,
+
+    // No idea what this does :D
+    "indent_guide_options":
+    [
+        "draw_normal",
+        "draw_active"
+    ],
+
+    // Add space between the line number and the code
+    "margin": 10,
+
+    // Because we have tab_completion disabled, we can always use SHIFT+TAB to unindent
+    "shift_tab_unindent": true,
+
+    // We gotta clean our code
+    "trim_trailing_white_space_on_save": true,
+
+    // If we got a line THAT long it's because we want it that way or because we gotta refactor the code
+    // so we don't want to hide it
+    "word_wrap": false,
+
+    // Use spaces instead of tabs
+    "translate_tabs_to_spaces": true,
+
+    // 4 spaces per tab, great
+    "tab_size": 4
 }

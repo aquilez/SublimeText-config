@@ -3,13 +3,17 @@
 	"installed_packages":
 	[
 		"Alignment",
-		"CleanCSS",
+		"ApacheConf.tmLanguage",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"Colorsublime",
 		"CSS3_Syntax",
 		"DocBlockr",
 		"Emmet",
 		"Laravel Blade Highlighter",
 		"Package Control",
-		"SideBarEnhancements",
-		"Theme - Spacegray"
+		"Sass",
+		"Seti_UI",
+		"WordPress Developer Resources"
 	]
 }
