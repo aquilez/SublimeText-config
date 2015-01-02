@@ -63,7 +63,8 @@
         "Textile",
         "Go",
         "RestructuredText",
-        "Python"
+        "Python",
+        "CSS"
     ],
 
     // Disable the tab navigation options (arrows, dropdown)
