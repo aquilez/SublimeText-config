@@ -19,7 +19,7 @@ To install, clone repo into the Packages directory (accesible via "Browse Packag
 * BracketHighlighter
 * Color Highlighter
 * ColorSublime
-* CSS3 Syntax
+* CSS3
 * DocBlockr
 * Emmet
 * WordPress Developer Resources
