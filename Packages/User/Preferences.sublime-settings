@@ -94,5 +94,8 @@
     "translate_tabs_to_spaces": true,
 
     // 4 spaces per tab, great
-    "tab_size": 4
+    "tab_size": 4,
+    
+    // Disable native bracket highligter
+    "match_brackets": false
 }
