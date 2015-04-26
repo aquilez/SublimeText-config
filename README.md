@@ -23,6 +23,7 @@ To install, clone repo into the Packages directory (accesible via "Browse Packag
 * DocBlockr
 * Emmet
 * WordPress Developer Resources
+* PHP-Twig
 
 ### Languages
 
