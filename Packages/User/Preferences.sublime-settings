@@ -68,7 +68,7 @@
     ],
 
     // Disable the tab navigation options (arrows, dropdown)
-    "enable_tab_scrolling": true,
+    "enable_tab_scrolling": false,
 
     // No idea what this does :D
     "indent_guide_options":
