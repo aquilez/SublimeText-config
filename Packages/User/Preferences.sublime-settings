@@ -105,5 +105,6 @@
     "Seti_ClosedFolder_dots": true,
     "Seti_sb_tree_miny": true,
     "Seti_show_group_arrows": true,
-    "Seti_bold_slctdfile_labels": true
+    "Seti_bold_slctdfile_labels": true,
+    "Seti_ClosedFolder_remove": true
 }
