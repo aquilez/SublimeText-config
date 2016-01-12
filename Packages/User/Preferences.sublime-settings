@@ -97,5 +97,13 @@
     "tab_size": 4,
     
     // Disable native bracket highligter
-    "match_brackets": false
+    "match_brackets": false,
+    
+    // Seti UI Theme Settings
+    "Seti_SB_med": true,
+    "Seti_orange_button": true,
+    "Seti_ClosedFolder_dots": true,
+    "Seti_sb_tree_miny": true,
+    "Seti_show_group_arrows": true,
+    "Seti_bold_slctdfile_labels": true
 }
