@@ -39,3 +39,8 @@ To install, clone repo into the Packages directory (accesible via "Browse Packag
 ### Color Schemes
 
 * Tron Legacy (Installed via ColorSublime)
+
+### Snippets
+
+* HTML5
+* jQuery
