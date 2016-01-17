@@ -1,0 +1,7 @@
+<!-- https://github.com/joshnh/HTML-Snippets/blob/master/jquery.sublime-snippet -->
+<snippet>
+    <content><![CDATA[<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>]]></content>
+    <tabTrigger>jquery</tabTrigger>
+    <description>HTML - Include jQuery</description>
+    <scope>text.html</scope>
+</snippet>
