@@ -17,6 +17,7 @@
 		"PHP Companion",
 		"PHP-Twig",
 		"Sass",
-		"Seti_UI"
+		"Seti_UI",
+		"Xdebug Client"
 	]
 }
