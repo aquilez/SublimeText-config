@@ -9,6 +9,10 @@
     /* Alignment */
     { "keys": ["ctrl+r"], "command": "alignment" },
 
+    /* ExpandRegion */
+    { "keys": ["ctrl+l"], "command": "expand_region" },
+    { "keys": ["ctrl+u"], "command": "expand_region", "args": {"undo": true}, "context": [{ "key": "expand_region_soft_undo" }] },
+
     /* PHP Companion */
     { "keys": ["f6"], "command": "expand_fqcn" },
     { "keys": ["shift+f6"], "command": "expand_fqcn", "args": {"leading_separator": true} },
