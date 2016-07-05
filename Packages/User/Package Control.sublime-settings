@@ -21,6 +21,8 @@
 		"Project Manager",
 		"Sass",
 		"Seti_UI",
+		"SublimeLinter",
+		"SublimeLinter-php",
 		"Xdebug Client"
 	]
 }
