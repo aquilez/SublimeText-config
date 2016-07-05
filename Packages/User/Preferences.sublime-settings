@@ -2,9 +2,12 @@
     // Make font for folders bold in the project manager
     "bold_folder_labels": true,
 
+    // Do not close sublime when closing the last open tab
+    "close_windows_when_empty": false,
+
     // Set theme
     "color_scheme": "Packages/Colorsublime - Themes/TronLegacy.tmTheme",
-    "theme": "Seti.sublime-theme",
+    "theme": "Seti_orig.sublime-theme",
 
     // Always use UNIX line ending
     "default_line_ending": "unix",
@@ -15,7 +18,7 @@
     // Stop messing with my code, dragging
     "drag_text": false,
 
-    // All files should end with a newline, because yes.
+    // All files should end with a newline, because yes
     "ensure_newline_at_eof_on_save": true,
 
     // Don't mess with my code, codehider
@@ -24,8 +27,8 @@
     // Set custom font
     "font_face": "DejaVu Sans Mono",
     "font_size": 11,
-    "line_padding_bottom": 3,
-    "line_padding_top": 3,
+    "line_padding_bottom": 4,
+    "line_padding_top": 4,
 
     // Highlight the current line
     "highlight_line": true,
@@ -63,8 +66,7 @@
         "Textile",
         "Go",
         "RestructuredText",
-        "Python",
-        "CSS"
+        "Python"
     ],
 
     // Disable the tab navigation options (arrows, dropdown)
@@ -86,25 +88,30 @@
     // We gotta clean our code
     "trim_trailing_white_space_on_save": true,
 
-    // If we got a line THAT long it's because we want it that way or because we gotta refactor the code
-    // so we don't want to hide it
+    // If we got a line THAT long it's because the code sucks and we should refactor, amirite?
     "word_wrap": false,
-
-    // Use spaces instead of tabs
-    "translate_tabs_to_spaces": true,
 
     // 4 spaces per tab, great
     "tab_size": 4,
-    
+
     // Disable native bracket highligter
     "match_brackets": false,
-    
+
     // Seti UI Theme Settings
+    "Seti_ClosedFolder_remove": true,
+    "Seti_bold_slctdfile_labels": true,
     "Seti_SB_med": true,
     "Seti_orange_button": true,
-    "Seti_ClosedFolder_dots": true,
-    "Seti_sb_tree_miny": true,
+    "Seti_sb_tree_miny": false,
     "Seti_show_group_arrows": true,
-    "Seti_bold_slctdfile_labels": true,
-    "Seti_ClosedFolder_remove": true
+
+    // Exclude these folders from the sidebar
+    "folder_exclude_patterns":
+    [
+        ".svn",
+        ".git",
+        ".hg",
+        "CVS",
+        "node_modules"
+    ],
 }
