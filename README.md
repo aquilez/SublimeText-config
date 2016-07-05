@@ -3,27 +3,40 @@
 This is my personal configuration for SublimeText 3.
 To install, clone repo into the Packages directory (accesible via "Browse Packages" option in the Preferences Menu).
 
+You may need to configure the following plugins:
+
+* CodeComplice and SublimeLinter: set the path to the PHP binary
+* xDebug Client: set folder mapping if connecting to an external server (like a vagrant instance)
+
 ## Notes
 
 * Font used: DejaVu Sans Mono at 11px
 * Lot of language packages are disabled
 * Default line ending is set to unix-style
-* Code Indentation is set to 4 SPACES
+* Tab size is set at 4 spaces.
+* Indentation is autodetected by Sublime
+* EditorConfig plugin in installed to force per-project settings
 
 ## Packages included
 
 ### Plugins
 
 * Package Control
+* AdvancedNewFile
 * Alignment
 * BracketHighlighter
+* CodeComplice
 * Color Highlighter
 * ColorSublime
 * CSS3
 * DocBlockr
 * Emmet
-* WordPress Developer Resources
-* PHP-Twig
+* ExpandRegion
+* PHP Companion
+* Project Manager
+* SublimeLinter
+* SublimeLinter-PHP
+* xDebug Client
 
 ### Languages
 
@@ -31,6 +44,7 @@ To install, clone repo into the Packages directory (accesible via "Browse Packag
 * Sass
 * CSS3
 * ApacheConf
+* PHP-Twig
 
 ### Themes
 
@@ -43,4 +57,3 @@ To install, clone repo into the Packages directory (accesible via "Browse Packag
 ### Snippets
 
 * HTML5
-* jQuery
