@@ -10,7 +10,7 @@ You may need to configure the following plugins:
 
 ## Notes
 
-* Font used: DejaVu Sans Mono at 11px
+* Font used: Source Code Pro at 12px
 * Lot of language packages are disabled
 * Default line ending is set to unix-style
 * Tab size is set at 4 spaces.
