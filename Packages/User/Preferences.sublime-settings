@@ -25,10 +25,10 @@
     "fold_buttons": false,
 
     // Set custom font
-    "font_face": "DejaVu Sans Mono",
-    "font_size": 11,
-    "line_padding_bottom": 4,
-    "line_padding_top": 4,
+    "font_face": "Source Code Pro",
+    "font_size": 12,
+    "line_padding_bottom": 5,
+    "line_padding_top": 5,
 
     // Highlight the current line
     "highlight_line": true,
